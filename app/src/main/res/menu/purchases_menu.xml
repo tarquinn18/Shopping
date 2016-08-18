@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.skripkin.shopping.purchases">
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:title="@string/action_edit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/save_state"
+        android:orderInCategory="100"
+        android:title="@string/action_save_state"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/make_new_list"
+        android:orderInCategory="100"
+        android:title="@string/action_make_new_list"
+        app:showAsAction="never"/>
+</menu>

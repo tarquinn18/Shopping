@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="prod_add">Добавить продукт</string>
+    <string name="action_save_state">Сохранить состояние</string>
+    <string name="action_make_new_list">Новый список из оставшегося</string>
+</resources>
