@@ -8,13 +8,27 @@
                   android:layout_height="match_parent"
                   android:scrollbars="vertical"
                   android:scrollbarAlwaysDrawVerticalTrack="true">
-        <EditText
-            android:layout_marginTop="15dp"
-            android:id="@+id/prodname"
-            android:inputType="text"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Название"/>
+            android:orientation="horizontal">
+            <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/prodname"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Название"
+                android:layout_weight="2"/>
+            <Button
+                android:id="@+id/voice_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/microphone"
+                android:onClick="voice"
+                android:layout_weight="1"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+        </LinearLayout>
         <Spinner
             android:id="@+id/measure"
             android:layout_width="match_parent"
